@@ -1,0 +1,31 @@
+font:
+  normal:
+    family: "MesloLGS NF"
+  size: 17
+
+title: Alacritty
+
+key_bindings:
+  - { key: Key0,     mods: Command, action: ResetFontSize }
+  - { key: Equals,   mods: Command, action: IncreaseFontSize }
+  - { key: Minus,    mods: Command, action: DecreaseFontSize }
+  - { key: C,        mods: Alt,     action: Copy }
+  - { key: V,        mods: Alt,     action: Paste }
+
+cursor:
+  # Cursor style
+  #
+  # Values for `style`:
+  #   - ▇ Block
+  #   - _ Underline
+  #   - | Beam
+  style: beam
+
+  # If this is `true`, the cursor will be rendered as a hollow box when the
+  # window is not focused.
+  #unfocused_hollow: true
+
+  
+window.opacity: 0.5
+
+
