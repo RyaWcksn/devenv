@@ -6,11 +6,31 @@ font:
 title: Alacritty
 
 key_bindings:
-  - { key: Key0,     mods: Command, action: ResetFontSize }
-  - { key: Equals,   mods: Command, action: IncreaseFontSize }
-  - { key: Minus,    mods: Command, action: DecreaseFontSize }
-  - { key: C,        mods: Alt,     action: Copy }
-  - { key: V,        mods: Alt,     action: Paste }
+  - { key: Key0,     mods: Command,     action: ResetFontSize }
+  - { key: Equals,   mods: Command,     action: IncreaseFontSize }
+  - { key: Minus,    mods: Command,     action: DecreaseFontSize }
+  - { key: C,        mods: Alt,         action: Copy }
+  - { key: V,        mods: Alt,         action: Paste }
+  - { key: T,        mods: Command,     chars: "\x01\x63" }
+
+  - { key: Right,    mods: Command,     chars: "\x01\x4c" }
+  - { key: Left,     mods: Command,     chars: "\x01\x48" }
+  - { key: Down,     mods: Command,     chars: "\x01\x4a" }
+  - { key: Up,       mods: Command,     chars: "\x01\x4b" }
+
+  - { key: L,        mods: Command,     chars: "\x01\x6c" }
+  - { key: H,        mods: Command,     chars: "\x01\x68" }
+  - { key: J,        mods: Command,     chars: "\x01\x6a" }
+  - { key: K,        mods: Command,     chars: "\x01\x6b" }
+
+  - { key: O,        mods: Command,     chars: "\x01\x2d" }
+  - { key: P,        mods: Command,     chars: "\x01\x7c" }
+  - { key: R,        mods: Command,     chars: "\x01\x2c" }
+  - { key: D,        mods: Command,     chars: "\x01\x78" }
+  - { key: Key1,     mods: Command,     chars: "\x01\x31" }
+  - { key: Key2,     mods: Command,     chars: "\x01\x32" }
+  - { key: Key3,     mods: Command,     chars: "\x01\x33" }
+  - { key: Key4,     mods: Command,     chars: "\x01\x34" }
 
 cursor:
   # Cursor style
@@ -27,5 +47,3 @@ cursor:
 
   
 window.opacity: 0.5
-
-
